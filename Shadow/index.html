@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow Effects</title>
+    <style>
+        :root{
+            --primary-color: brown;
+            --custom-width:330px;
+        }
+        .container{
+            background-color: beige;
+            height: 650px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            /* --primary-color: brown; */
+            /* --custom-width: 330px; */
+            background-color: aquamarine;
+            height: 330px;
+            width: 330px;
+            border: 1px solid var(--primary-color);
+            margin: 5px;
+            padding: 5px;
+            /* box-shadow: 40px 40px rgb(199, 185, 185); */
+            /* box-shadow: 10px 15px 10px brown; */
+            /* box-shadow: 10px 15px 5px 10px brown; */
+            /* box-shadow: inset 10px 15px  brown; */
+            box-shadow: 10px 15px black, 15px 8px gray;
+        }
+        img{
+            height: 100px;
+            width: 100px;
+        }
+        #head1{
+            text-shadow: 3px 4px 1px white;
+            /* text-shadow: yellow 12px 13px 2px;*/
+            /* text-shadow: white 10px 12px; */
+            /* text-shadow: 2px 3px; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="w3s.png" alt="">
+            <h2 id="head1">Let's learn about shadow effects in CSS</h2>
+            <p>CSS provides two primary properties for creating shadow effects: box-shadow and text-shadow. </p>
+        </div>
+    </div>
+</body>
+</html>

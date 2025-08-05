@@ -1,0 +1,28 @@
+/* Selector */
+h1{
+    background-color: bisque;
+    color: black;
+    text-align: center;
+}
+
+p{
+    border: 2px solid black;
+    background-color: aliceblue;
+    text-align: justify;
+}
+
+/* id selector */
+#article{
+    background-color: blanchedalmond;
+}
+
+/* class selector */
+.para{
+    background-color: aqua;
+}
+
+        /* group selector */
+
+/* p, article, div{
+    width: 600px;
+} */
