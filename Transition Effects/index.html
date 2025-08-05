@@ -5,11 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transitions Effects in CSS</title>
     <style>
-        
+        .box{
+            height: 400px;
+            width: 400px;
+            background-color: aqua;
+            border: 2px solid black;
+            /* transition-property: all;
+            transition-duration: 2s;
+            transition-delay: 1s;
+            transition-timing-function: ease-out; */
+
+            /* Shorthand notation */
+
+            /* transition: all 2s ease-in 5s; */
+            transition: width 2s, height 5s;
+        }
+        .box:hover{
+            width: 1100px;
+            background-color: blue;
+            border: 5px solid black;
+            height: 900px;
+
+        }
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="box">
 
     </div>
 </body>
