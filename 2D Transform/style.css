@@ -24,7 +24,7 @@ p{
 }
 
 .box:hover{
-    /* transform: rotate(45deg); */
+    transform: rotate(45deg);
     /* transform: scale(2); */
 
     /* transform: scale(0.5);
@@ -35,5 +35,5 @@ p{
 
    /* transform: translate(500px); */
 
-   transform: translate(500px, 500px);
+   /* transform: translate(500px, 500px); */
 }
